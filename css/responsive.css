@@ -1,0 +1,129 @@
+/* Responsive for Laptops Devices */
+@media screen and (max-width:1200px){
+    header, .hero-section, .product-section, .service-section{
+        padding: 0 10rem;
+    }
+    .hero-section, .product-section, .service-section{
+        margin-bottom: 10rem;
+    }
+    header nav .logo h1{
+        font-size: 3rem;
+    }
+    .hero-section .hero-content h1{
+        font-size: 4rem;
+        width: 35rem;
+    }
+    .hero-section .hero-content p{
+        width: 35rem;
+        font-size: 2rem;
+    }
+    
+}
+
+/* Responsive for Tab Devices */
+@media screen and (max-width:900px){
+    header, .hero-section, .product-section, .service-section{
+        padding: 0 9rem;
+    }
+    .hero-section, .product-section, .service-section{
+        margin-bottom: 10rem;
+    }
+    header nav .logo h1{
+        font-size: 3rem;
+    }
+    header nav .menu {
+        gap: 2rem;
+    }
+    header nav .menu li{
+        font-size: 2rem;
+    }
+    .hero-section, .service-section .services{
+        flex-direction: column;
+    }
+    .hero-section .hero-content{
+        order: 2;
+        width: 100%;
+    }
+    .hero-section .hero-content h1{
+        font-size: 5rem;
+        width: 100%;
+        line-height: 6rem;
+        margin-bottom: 2rem;
+    }
+    .hero-section .hero-content p{
+        width: 100%;
+        font-size: 2rem;
+        margin-bottom: 5rem;
+    }
+    .hero-section .hero-img{
+        order: 1;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .product-section h1, .service-section h1{
+        font-size: 4rem;
+    }
+    .product-section .products{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .product-section .products .product-card{
+        padding: 3rem;
+    }
+    footer p{
+        font-size: 1.6rem;
+    }
+}
+
+/* Responsive for Mobile Devices */
+@media screen and (max-width:576px){
+    header, .hero-section, .product-section, .service-section{
+        padding: 0 5rem;
+    }
+    .hero-section, .product-section, .service-section{
+        margin-bottom: 12rem;
+    }
+    header nav .logo h1{
+        font-size: 2rem;
+    }
+    header nav .menu {
+        gap: 1rem;
+    }
+    header nav .menu li{
+        font-size: 1.5rem;
+    }
+    .hero-section, .service-section .services{
+        flex-direction: column;
+    }
+    .hero-section .hero-content{
+        order: 2;
+        width: 100%;
+    }
+    .hero-section .hero-content h1{
+        font-size: 3rem;
+        width: 100%;
+        line-height: 6rem;
+        margin-bottom: 2rem;
+    }
+    .hero-section .hero-content p{
+        width: 100%;
+        font-size: 2rem;
+        margin-bottom: 5rem;
+    }
+    .hero-section .hero-img{
+        order: 1;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .product-section h1, .service-section h1{
+        font-size: 3rem;
+    }
+    .product-section .products{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .product-section .products .product-card{
+        padding: 3rem;
+    }
+    footer p{
+        font-size: 1.3rem;
+    }
+}
